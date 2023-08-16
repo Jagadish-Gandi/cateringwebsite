@@ -1,0 +1,176 @@
+#myName{
+    letter-spacing:4px;
+    color: #140202 ;
+    font-weight:bold;
+    border-top: 2px solid black ;
+    border-bottom: 2px solid black;
+    width: 75px;
+}
+.nav-link{
+    color: tomato;
+    font-weight: 900;
+    border:4px solid white;
+    margin-left: 5px;    
+}
+.nav-link:hover{
+    background-color:black;
+    color:white;
+    font-weight: 900;
+    border:4px solid black;
+    text-decoration:;
+}
+#navbar{
+       box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+       position:sticky;
+       top: 0;
+       background-color: white;
+}
+#view_more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding: 10px;
+  margin-top: 3%;
+}
+#view_more:hover{
+  background-color: red;
+}
+#myImage{
+    width: 100%;
+    height: auto;
+}
+#about_img{
+    width: 100%;
+    height: auto;
+}
+h2{
+    font-size: 4rem;
+    font-family: 'Abril Fatface', cursive;
+}
+h3{
+    font-size: 2rem;
+}
+*{
+    font-size: 20px;
+}
+#about{
+  border: 2px solid grey;
+}
+#menu{
+  padding: ; //it will decrease image size and with
+  text-align: center;
+  margin-top:10rem;
+  background-color:
+}
+
+div.gallery {
+    border: 1px solid black;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  #contact{
+    margin-top: 10rem;
+  }
+
+  address{
+    color:green;
+  }
+  .form-control {
+    height: 55px; /* Increase the height to your desired value */
+  }
+  button{
+    height: 50px;
+  }
+  footer{
+    height: ;
+    font-weight: 300;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-top: 20px;
+    padding:10px 10px 10px 10px;
+    margin: bottom;
+    background-color:forestgreen;
+    color:whitesmoke
+  }
+  span{
+    color: black;
+    font-size: ;
+  }
+  span:hover{
+    color: whitesmoke;
+    border: 4px solid black;
+  }
+i:hover{
+  color:maroon;
+  font-size: larger;
+}
+
+#button:hover{
+  background-color: green;
+}
+#sign_in{
+  height: 10px;
+  width:100%;
+}
+
+#myImage{
+  width:100%;
+  height:auto;
+}
+@media screen and (min-width: 600px) {
+#myImage {
+height:750px;
+width:100%;
+
+}
+}
+#jag{
+  color: whitesmoke;
+  font-weight:800;
+}
+
+@media (max-width: 446px) {
+  #about_image {
+    width: ; /* Adjust the size as per your requirement */
+      max-width: 100%;
+      height: auto;
+  }
+}
